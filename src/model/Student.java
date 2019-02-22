@@ -4,7 +4,7 @@ public class Student {
 	private String id;
 	private double[] grades;
 	
-	public Student(String identifier, int totalGrades) {
+	public Student(String identifier, int totalGrades)  {
 		grades = new double[totalGrades];
 	}
 	
